@@ -4,13 +4,13 @@
 1. Install:
 
 ```bash
-yarn add @caisy-io/prettier -D
+yarn add @caisy/prettier -D
 ```
 
 2. Configure (`package.json`):
 
 ```json
 {
-  "prettier": "@caisy-io/prettier"
+  "prettier": "@caisy/prettier"
 }
 ```
