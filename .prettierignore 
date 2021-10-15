@@ -1,0 +1,11 @@
+# Ignore artifacts:
+dist/
+build/
+coverage/
+node_modules/
+.cache/
+.next
+.now
+package*.json
+yarn-lock.json
+CHANGELOG.md
