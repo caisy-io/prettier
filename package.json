@@ -2,6 +2,7 @@
   "name": "@caisy/prettier",
   "version": "1.0.0",
   "main": "prettier.json",
+  "repository": "git://github.com/caisy-io/prettier.git",
   "devDependencies": {
     "prettier": "2.4.1"
   }
