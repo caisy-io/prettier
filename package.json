@@ -1,4 +1,7 @@
 {
+  "name": "@caisy/prettier",
+  "version": "1.0.0",
+  "main": "prettier.json",
   "devDependencies": {
     "prettier": "2.4.1"
   }
