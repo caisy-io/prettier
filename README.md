@@ -1,16 +1,40 @@
 ## prettier
-### Usage
-
-1. Install:
+### Install:
 
 ```bash
 yarn add @caisy/prettier -D
 ```
 
-2. Configure (`package.json`):
+### Usage:
+
+Use one of the tree approaches:
+1. Add it to your package.json:
 
 ```json
 {
   "prettier": "@caisy/prettier"
 }
 ```
+2. Add it to your .prettierrc.json:
+
+```t
+"@caisy/prettier"
+´´´
+3. If you want to override some properties of the config:
+```js
+// .prettierrc.js
+module.exports = {
+  ...require('@caisy/prettier'),
+  semi: false,
+};
+```
+
+### Ignoring Code:
+1. Use this, if you do not want to extend the .prettierignore:
+```bash
+npx prettier ** --write --ignore-path node_modules/@caisy/prettier/.prettierignore
+```
+2. Use this, to copy the .prettierignore to your root:
+```bash
+cp "node_modules\@caisy\prettier\.prettierignore" ".prettierignore"
+´´´
