@@ -1,8 +1,7 @@
 # Ignore artifacts:
-node_modules
 ../../../node_modules
-dist
-reactComponentLib
-plop-templates
-react-doka
-.next
+../../../dist
+../../../reactComponentLib
+../../../plop-templates
+../../../react-doka
+../../../*.next
