@@ -17,9 +17,8 @@ Use one of the tree approaches:
 ```
 2. Add it to your .prettierrc.json:
 
-```t
 "@caisy/prettier"
-´´´
+
 3. If you want to override some properties of the config:
 ```js
 // .prettierrc.js
