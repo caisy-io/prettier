@@ -33,7 +33,3 @@ module.exports = {
 ```bash
 npx prettier ** --write --ignore-path node_modules/@caisy/prettier/.prettierignore
 ```
-2. Use this, to copy the .prettierignore to your root:
-```bash
-cp "node_modules\@caisy\prettier\.prettierignore" ".prettierignore"
-´´´
