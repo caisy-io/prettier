@@ -33,3 +33,7 @@ module.exports = {
 ```bash
 npx prettier ** --write --ignore-path node_modules/@caisy/prettier/.prettierignore
 ```
+2. Use this, if you want to extend the .prettierignore:
+```bash
+cp "./node_modules/@caisy/prettier/.prettierignore" ".prettierignore"
+```
